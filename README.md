@@ -1,85 +1,101 @@
 <h1 align="center">Hi 👋, I'm Utkarsh Arora</h1>
-<h3 align="center">🚀 AI Developer | Computer Vision Enthusiast | Full Stack Learner</h3>
+<h3 align="center">Software Development Engineer | AI & Computer Vision Enthusiast</h3>
+
+<p align="center">
+  <a href="mailto:utkarsh.arora09@gmail.com">📧 utkarsh.arora09@gmail.com</a> •
+  <a href="https://linkedin.com/in/utkarsh-arora09">LinkedIn</a> •
+  <a href="https://github.com/UtkarshArora">GitHub</a>
+</p>
 
 ---
 
-## 🧠 About Me
+## 🚀 About Me
 
-- 🎓 Final Year Computer Science Student  
-- 🤖 Passionate about AI, Computer Vision & Real-World Problem Solving  
-- 🏥 Built **SaniTrack** – AI-powered Hospital Sanitation Monitoring System  
-- 💡 Interested in building scalable, intelligent systems  
-- 🔭 Currently improving Full Stack & System Design skills  
+🎓 B.Tech Information Technology Student (CGPA: 8.5)  
+💻 Strong in Data Structures, Algorithms & System Design fundamentals  
+🤖 Passionate about AI-driven real-world systems & scalable backend architectures  
+🔎 Actively seeking Software Development Engineer (SDE) roles  
 
----
-
-## 🚀 Featured Project
-
-### 🏥 SaniTrack – Intelligent Hospital Sanitation Monitoring System
-An AI-powered system that:
-- Detects cleaner attendance using Face Recognition (OpenCV + KNN)
-- Verifies ward cleanliness using YOLOv8 Trash Detection
-- Triggers automated alerts for absenteeism or incomplete cleaning
-- Enables admin task reassignment through dashboard monitoring
-
-Tech Used:
-- Python
-- OpenCV
-- YOLOv8
-- React (Vite)
-- TailwindCSS
+I build intelligent systems that combine **AI + Backend + Real-World Deployment**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🏆 Featured Projects
+
+### 🏥 SaniTrack – AI Hospital Sanitation Monitoring System
+- Built an AI-powered sanitation monitoring system using **OpenCV, YOLOv8, KNN**
+- Implemented real-time face recognition & trash detection via CCTV feeds
+- Integrated IoT sensors using **MQTT**
+- Automated WhatsApp alert mechanisms to reduce manual supervision
+- Designed scalable backend logic with MongoDB logging
+
+Tech: `Python` `OpenCV` `YOLOv8` `Flask` `React` `MongoDB` `IoT`
+
+---
+
+### 🧠 AyurSutra – AI Enabled Therapy Scheduling Platform
+- Designed an AI-driven therapy booking & management system used by 200+ daily users
+- Built structured medical data storage using **PostgreSQL**
+- Implemented secure role-based access & efficient backend APIs
+
+Tech: `React` `Node.js` `PostgreSQL` `AI Logic`
+
+---
+
+### ✋ Gesture-Based Math Solver
+- Built a real-time handwritten math recognition system
+- Achieved **95% recognition accuracy** using optimized OCR preprocessing
+- Integrated computer vision for gesture tracking
+
+Tech: `Python` `OpenCV` `OCR`
+
+---
+
+## 💼 Experience
+
+### 🔹 Bluestock Fintech – SDE Intern
+- Developed production-level modular frontend components
+- Collaborated in a 5-member remote engineering team
+- Improved code reliability through debugging & Git workflows
+
+### 🔹 Ruava Digital – Web Developer (Paid Internship)
+- Built & deployed full-stack web apps supporting 500+ active users
+- Designed optimized PostgreSQL schemas for scalable queries
+
+---
+
+## 🛠 Tech Stack
 
 ### 💻 Languages
-- C++
-- Python
-- JavaScript
+`C++` `Python` `JavaScript`
 
-### 🤖 AI / ML
-- OpenCV
-- YOLOv8
-- KNN
-- NumPy
-- Pandas
+### 📚 Core Concepts
+`Data Structures` `Algorithms` `OOP` `DBMS` `OS`
 
-### 🌐 Frontend
-- React
-- Vite
-- TailwindCSS
+### 🤖 AI & ML
+`OpenCV` `YOLOv8` `KNN` `OCR` `IoT (MQTT)`
 
-### ⚙️ Tools
-- Git
-- GitHub
-- VS Code
+### 🌐 Backend & Frontend
+`React` `Node.js` `Flask` `REST APIs`
+
+### 🗄 Databases & Tools
+`PostgreSQL` `MongoDB` `Firebase` `Git`
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Competitive Programming
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" />
-</p>
+- Solved 250+ DSA problems
+- 100+ Competitive Programming problems
+- Runner-Up – Hackathon 2025 (QueueCare)
+- Participant – Samsung Code for Tomorrow 2024
 
 ---
 
-## 🎯 Career Goal
+## 🎯 Career Objective
 
-To work as a Software Developer / AI Engineer in a product-based company where I can build impactful, scalable, and intelligent systems.
-
----
-
-## 📫 Connect With Me
-
-- LinkedIn: (Add your link here)
-- Email: (Add your email here)
+To build scalable, intelligent systems in a product-based company where I can contribute to backend systems, AI pipelines, and real-world software architectures.
 
 ---
 
-⭐ If you like my projects, feel free to explore my repositories!
+⭐ Always learning. Always building.
