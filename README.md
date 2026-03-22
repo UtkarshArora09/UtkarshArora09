@@ -173,7 +173,6 @@ Draw math in air — AI solves it via webcam.
 - **Rock Paper Scissors** → [rockpaperscisssor](https://github.com/UtkarshArora09/rockpaperscisssor)
 - **VideoCall v2** (Firebase) → [video-call-Queuecare](https://github.com/UtkarshArora09/video-call-Queuecare)
 - **ICP Workshop** → [ICP-WORKSHOP](https://github.com/UtkarshArora09/ICP-WORKSHOP)
-- **Snake & Ladder** → Play below!
 
 </td>
 </tr>
@@ -192,12 +191,12 @@ Draw math in air — AI solves it via webcam.
 - Built production-level frontend components
 - Worked in a 5-member engineering team
 - Improved code reliability through debugging
-- Git workflows & CI/CD pipelines
+- Git workflows and CI/CD pipelines
 
 </td>
 <td width="50%">
 
-**Kuava Digital — Web Developer (Paid)**
+**Ruava Digital — Web Developer (Paid)**
 
 - Full-stack apps serving 500+ users
 - Designed optimized PostgreSQL schemas
@@ -223,13 +222,7 @@ Draw math in air — AI solves it via webcam.
 
 ---
 
-## Trophies & Achievements
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=UtkarshArora09&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
+## Achievements
 
 | Achievement | Details |
 |---|---|
@@ -243,46 +236,52 @@ Draw math in air — AI solves it via webcam.
 
 ## Contribution Snake
 
-> **Setup required (one-time):** After you create the snake.yml workflow and run it once from the Actions tab, uncomment the image line below by removing the `<!--` and `-->`.
+<div align="center">
 
 ![snake animation](https://github.com/UtkarshArora09/UtkarshArora09/blob/output/github-snake-dark.svg)
 
-**Not set up yet?** Follow these steps:
+</div>
+
+> Snake not visible? Run the **Generate Snake** workflow from the Actions tab — use the fixed `snake.yml` below!
 
 <details>
-<summary>Click here — snake.yml setup guide</summary>
+<summary>Fixed snake.yml — click to expand</summary>
 
-**Step 1:** In your `UtkarshArora09/UtkarshArora09` repo, create this file:
-`.github/workflows/snake.yml`
+Replace your current `.github/workflows/snake.yml` with this:
 
 ```yaml
 name: Generate Snake
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
 jobs:
   snake:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: UtkarshArora09
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+
+      - name: Push snake to output branch
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: output
+          folder: dist
+          clean: false
 ```
 
-**Step 2:** Go to **Actions tab → Generate Snake → Run workflow**
-
-**Step 3:** Once it finishes, uncomment the snake image line above in this README
+After updating → go to **Actions tab** → **Generate Snake** → **Run workflow**
 
 </details>
 
@@ -294,7 +293,11 @@ jobs:
 
 **A fully playable Snake & Ladder game — hosted from this GitHub profile!**
 
-[![PLAY SNAKE AND LADDER](https://img.shields.io/badge/%F0%9F%8E%AE%20PLAY%20SNAKE%20%26%20LADDER-%20Click%20to%20Play!-A855F7?style=for-the-badge&labelColor=1a1a2e)](https://UtkarshArora09.github.io/UtkarshArora09/snake_ladder.html)
+<br/>
+
+[![PLAY SNAKE AND LADDER](https://img.shields.io/badge/%F0%9F%8E%AE%20PLAY%20SNAKE%20%26%20LADDER-Click%20to%20Play!-A855F7?style=for-the-badge&labelColor=1a1a2e)](https://UtkarshArora09.github.io/UtkarshArora09/snake_ladder.html)
+
+<br/>
 
 | Snakes — slide down | Ladders — climb up |
 |:---:|:---:|
@@ -304,11 +307,15 @@ jobs:
 </div>
 
 <details>
-<summary>How to enable the game (one-time setup)</summary>
+<summary>Game not working? Enable GitHub Pages (one-time setup)</summary>
 
-1. Add `snake_ladder.html` to this repo
-2. Go to **Settings → Pages → Source → Branch: main → Save**
-3. Wait 2 minutes — then the Play button works!
+1. Go to your **UtkarshArora09** repo → **Settings**
+2. Click **Pages** in the left sidebar
+3. Under **Source** → select **Deploy from a branch**
+4. Under **Branch** → select **main** → click **Save**
+5. Wait 2 minutes → the Play button above now works!
+
+The `snake_ladder.html` file is already in your repo — no other steps needed.
 
 </details>
 
