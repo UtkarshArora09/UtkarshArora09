@@ -197,7 +197,7 @@ Draw math in air — AI solves it via webcam.
 </td>
 <td width="50%">
 
-**Ruava Digital — Web Developer (Paid)**
+**Kuava Digital — Web Developer (Paid)**
 
 - Full-stack apps serving 500+ users
 - Designed optimized PostgreSQL schemas
@@ -245,9 +245,7 @@ Draw math in air — AI solves it via webcam.
 
 > **Setup required (one-time):** After you create the snake.yml workflow and run it once from the Actions tab, uncomment the image line below by removing the `<!--` and `-->`.
 
-<!--
 ![snake animation](https://github.com/UtkarshArora09/UtkarshArora09/blob/output/github-snake-dark.svg)
--->
 
 **Not set up yet?** Follow these steps:
 
