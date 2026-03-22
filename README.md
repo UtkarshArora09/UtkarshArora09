@@ -267,7 +267,7 @@ Draw math in air — AI solves it via webcam.
 </td>
 <td width="50%">
 
-**Ruava Digital — Web Developer (Paid)**
+**Kuava Digital — Web Developer (Paid)**
 
 - Full-stack apps serving 500+ users
 - Designed optimized PostgreSQL schemas
@@ -300,7 +300,7 @@ Draw math in air — AI solves it via webcam.
 | Founder | Built & launched AutomateAce.online startup |
 | Hackathon Runner-Up | QueueCare — 2025 |
 | National Participant | Samsung Code for Tomorrow 2024 |
-| DSA Problems Solved | 250+ (LeetCode / GFG) |
+| DSA Problems Solved | 300+ (LeetCode / GFG) |
 | Competitive Programming | 100+ problems |
 | Academic | B.Tech IT — CGPA 8.5 |
 
