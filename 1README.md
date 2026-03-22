@@ -34,7 +34,7 @@
 - Passionate about **AI-powered systems** that solve real problems
 - Love building **scalable backends + real-time applications**
 - **Hackathon Runner-Up 2025** · Samsung **Code for Tomorrow 2024**
-- Solved **250+ DSA** problems · **100+ CP** problems
+- Solved **300+ DSA** problems · **100+ CP** problems
 - Exploring **WebRTC**, **Computer Vision** & **System Design**
 - **utkarsh.arora09@gmail.com**
 
