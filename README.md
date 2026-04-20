@@ -6,7 +6,7 @@
 
 # Hi, I'm Utkarsh Arora
 
-### SDE · AI Systems Builder · Backend & Computer Vision Enthusiast · Founder
+### SDE · AI Systems Builder · Full Stack Developer · ML Enthusiast · Founder @AutomateAce 
 
 <br/>
 
